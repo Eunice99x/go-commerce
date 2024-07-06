@@ -1,0 +1,9 @@
+[build]
+cmd = "go build -o ./tmp/main ./internal/api/api.go"
+bin = "./tmp/main"
+watch_dir = ["./internal/api", "./"]
+include_ext = ["go"]
+exclude_dir = ["tmp"]
+exclude_ext = ["swp", "go.mod", "go.sum", "tmp"]
+delve_listen = ":2345"
+delve_api_version = 2
