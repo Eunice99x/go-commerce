@@ -5,7 +5,7 @@ func (a *API) SetupRoutes() error {
 
 	groupUsers := api.Group("/users")
 
-	//groupUsers.Name("List All Users").Get("", )
+	groupUsers.Name("List All Users").Get("", a.ListUsers)
 
 	groupUsers.Name("Create a User").Post("", a.CreateUser)
 

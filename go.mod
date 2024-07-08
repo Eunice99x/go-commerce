@@ -1,4 +1,4 @@
-module gihub.com/eunice99x/go-commerce
+module github.com/eunice99x/go-commerce
 
 go 1.22.4
 

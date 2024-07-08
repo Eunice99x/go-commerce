@@ -1,7 +1,7 @@
 package database_test
 
 import (
-	"gihub.com/eunice99x/go-commerce/src/database"
+	"github.com/eunice99x/go-commerce/internal/database"
 	"testing"
 )
 
